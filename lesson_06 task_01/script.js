@@ -17,11 +17,11 @@ const getCounter = function() {
     }
 };
 
-const gameRandom - function(attemps) {
+const gameRandom = function(attemps) {
     const randomNum = getRandomNum(1, 100);
     console.log(randomNum);
     
-    coonst counter = getCounter();
+    const counter = getCounter();
 
     return (function checkNumber() {
         const count = counter();
@@ -45,7 +45,7 @@ const gameRandom - function(attemps) {
             }
             console.log(repeat);
 
-            if (reapeat) gameRandom(attemps);
+            if (repeat) gameRandom(attemps);
 
         }   else {
             if (userNumber !== null){
